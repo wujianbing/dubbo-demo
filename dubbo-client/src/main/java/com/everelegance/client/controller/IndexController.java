@@ -22,7 +22,7 @@ public class IndexController {
     }
 
     @RequestMapping("/userInfo")
-    public UserVO getUserInfo(){
+    public UserVO getUserInfo() {
         return clientService.getUserInfo();
     }
 
